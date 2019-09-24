@@ -14,4 +14,5 @@ public class Task2Test {
     public void shouldReturnOppositePositiveValue() {
         assertEquals(instance.returnReverseNum(-2), 2);
     }
+
 }
