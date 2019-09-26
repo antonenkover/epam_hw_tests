@@ -24,4 +24,11 @@ public class Task3Test {
         assertEquals("The length is: 16",  result);
     }
 
+    @Test
+    public void shouldReturn8() {
+        given(userInput.chosenType( anyInt())).willReturn(8);
+        String result = output.requiredOutput(8);
+        assertEquals("The length is: 16",  result);
+    }
+
 }
